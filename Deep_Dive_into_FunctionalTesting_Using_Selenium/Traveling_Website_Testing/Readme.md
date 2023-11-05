@@ -1,6 +1,7 @@
 #Travel_Website_Testing
 
 #Introduction and Prerequisite:
+
 This Java code snippet demonstrates testing a travel website using Selenium WebDriver.Selenium WebDriver is a popular automation tool for web testing, and Java is the programming language used here. The code automates interactions with the website to test various features, including dropdown selection, dynamic dropdowns, and suggestive dropdowns. Before running this code, you need to have the following prerequisites in place:
 Selenium WebDriver library for Java.
 Chrome browser installed.
