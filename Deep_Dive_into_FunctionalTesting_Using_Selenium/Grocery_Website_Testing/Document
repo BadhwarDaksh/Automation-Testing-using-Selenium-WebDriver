@@ -1,13 +1,15 @@
 #Grocery Website Testing
 
-T
-#Introduction and Prerequisite:
-This Java code snippet demonstrates testing a travel website using Selenium WebDriver. Selenium WebDriver is a popular automation tool for web testing, and Java is the programming language used here. The code automates interactions with the website to test various features, including dropdown selection, dynamic dropdowns, and suggestive dropdowns. Before running this code, you need to have the following prerequisites in place:
-Selenium WebDriver library for Java.
-Chrome browser installed.
-ChromeDriver executable.
-#Given or Input:
-The code starts by setting up the ChromeDriver and navigating to a specific URL (https://rahulshettyacademy.com/dropdownsPractise). It then performs various actions on the web page, such as selecting dropdown options, interacting with dynamic dropdowns, and entering text in a suggestive dropdown. Some of the actions include selecting currency, increasing the number of passengers, choosing origin and destination airports, and selecting options like Senior Citizen discount and trip type.
+1) Introduction and Prerequisite:
+This Java program demonstrates automated testing of a grocery website using Selenium WebDriver. Selenium is a popular tool for web automation, and the test script is designed to interact with the website to simulate a user's actions. Prior to running this script, ensure that you have the following prerequisites:
 
-#Output:
-The code includes assertions using TestNG's Assert class to validate certain conditions during the testing process. If the conditions are met, the assertions return true. The code outputs "done" to the console to indicate the successful completion of the test. If any assertion fails, it will throw an exception or provide appropriate error messages. Overall, the code tests the functionality of the travel website by automating user interactions and checking for expected behavior.
+Java installed on your system.
+Selenium WebDriver for Java configured.
+ChromeDriver installed and the path set correctly.
+The Chrome browser installed.
+A compatible IDE (Integrated Development Environment) for Java, such as Eclipse or IntelliJ.
+2) Given or Input:
+The input for this script is a list of grocery items to be added to the cart. In the provided code, the itemsNeeded array contains the names of items like "Cucumber," "Brocolli," and "Beetroot" that you want to add to your cart. The script will search for these items on the grocery website and add them to the cart if found.
+
+3) Output:
+The output of this script is the successful addition of the specified grocery items to the cart on the website. The script navigates to the grocery website, searches for the specified items, and adds them to the cart. The website's functionality is tested to ensure that the desired items can be added correctly. Any errors or issues encountered during this process will be reported as output in case of a failure, providing valuable feedback for testing and debugging.
