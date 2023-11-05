@@ -3,13 +3,13 @@
 1) Introduction and Prerequisite:
 This Java program demonstrates automated testing of a grocery website using Selenium WebDriver. Selenium is a popular tool for web automation, and the test script is designed to interact with the website to simulate a user's actions. Prior to running this script, ensure that you have the following prerequisites:
 
-Java installed on your system.
+ Java installed on your system.
 
-Selenium WebDriver for Java configured.
+ Selenium WebDriver for Java configured.
 
-ChromeDriver installed and the path set correctly.
+ ChromeDriver installed and the path set correctly.
 
-The Chrome browser installed.
+ The Chrome browser installed.
 
 A compatible IDE (Integrated Development Environment) for Java, such as Eclipse or IntelliJ.
 
