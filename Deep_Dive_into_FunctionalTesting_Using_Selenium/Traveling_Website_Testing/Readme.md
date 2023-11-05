@@ -11,6 +11,7 @@ ChromeDriver executable.
 The code starts by setting up the ChromeDriver and navigating to a specific URL (https://rahulshettyacademy.com/dropdownsPractise). It then performs various actions on the web page, such as selecting dropdown options, interacting with dynamic dropdowns, and entering text in a suggestive dropdown. Some of the actions include selecting currency, increasing the number of passengers, choosing origin and destination airports, and selecting options like Senior Citizen discount and trip type.
 
 #Output:
+
 The code includes assertions using TestNG's Assert class to validate certain conditions during the testing process. If the conditions are met, the assertions return true. The code outputs "done" to the console to indicate the successful completion of the test. If any assertion fails, it will throw an exception or provide appropriate error messages. Overall, the code tests the functionality of the travel website by automating user interactions and checking for expected behavior.
 
 
