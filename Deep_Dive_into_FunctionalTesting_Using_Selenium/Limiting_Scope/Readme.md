@@ -8,7 +8,7 @@ The provided Java code demonstrates the usage of Selenium WebDriver to perform w
 The code starts by setting up the Selenium WebDriver with Chrome and navigating to the "http://qaclickacademy.com/practice.php" web page. It then performs the following tasks:
 
 Counts the number of links on the page.
-Finds the footer section with the ID "gf-BIG" and counts the number of links within it.
+Finds the footer section and counts the number of links within it.
 Limits the scope to the first column of the footer.
 Clicks on each link in the first column to open them in new tabs.
 Retrieves the titles of the opened tabs.
